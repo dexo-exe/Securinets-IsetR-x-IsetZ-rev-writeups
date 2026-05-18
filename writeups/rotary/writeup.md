@@ -1,6 +1,6 @@
 # rotary writeup 
 
-we're given an ELF x64 [rotary](/rotary/rotary)
+we're given an ELF x64 [rotary](/writeups/rotary/rotary)
 
 strings gives us a clue which is OpenSSL which is AES-128-CBCso we're using ghidra once again  
 

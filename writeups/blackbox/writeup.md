@@ -1,5 +1,5 @@
 # blackbox writeup
-you're provided with [blackbox](/blackbox/blackbox) which is a stripped linux x64 ELF.  
+you're provided with [blackbox](/writeups/blackbox/blackbox) which is a stripped linux x64 ELF.  
 "strings" command shows the following  
 
  ![strings](pictures/Screenshot_20260512_110658.png)
