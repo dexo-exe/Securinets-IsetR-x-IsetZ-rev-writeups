@@ -8,7 +8,7 @@ as we can see strings shows some AES encryption and some weird ASCII "umducqWlcs
 
 so we will launch our ghidra and inspect the executable.
 
-![ghidra](/pictures/Screenshot_20260512_111542.png)
+![ghidra](pictures/Screenshot_20260512_111542.png)
 
 the decompiler provided the following :  
 
@@ -36,7 +36,7 @@ and also we can see that the bytes that are used are stored in &DAT_00102020 and
 
 using BYTES window in ghidra we can view the data on these adresses  
 
-![strings](/pictures/Screenshot_20260512_113518.png)  
+![strings](pictures/Screenshot_20260512_113518.png)  
 
 
 
@@ -77,6 +77,6 @@ print(f" {flag}")
 ```
 which gives us the final flag 
 
-![flag](/blackbox/pictures/Screenshot_20260512_114241.png)
+![flag](pictures/Screenshot_20260512_114241.png)
 
 

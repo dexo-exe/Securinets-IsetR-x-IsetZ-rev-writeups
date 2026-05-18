@@ -4,7 +4,7 @@ we're given an ELF x64 [rotary](/rotary/rotary)
 
 strings gives us a clue which is OpenSSL which is AES-128-CBCso we're using ghidra once again  
 
-![ghidra](/rotary/pictures/Screenshot_20260512_115932.png)
+![ghidra](pictures/Screenshot_20260512_115932.png)
 
 The disassembly doesn't provide much only 
 
@@ -35,4 +35,4 @@ we load the executable into GDB and set a breakpoint at the AEC_cbc_encrypt func
 
 and finally we can see our flag  
 
-![flag](/rotary/pictures/Screenshot_20260512_122941.png)
+![flag](pictures/Screenshot_20260512_122941.png)
