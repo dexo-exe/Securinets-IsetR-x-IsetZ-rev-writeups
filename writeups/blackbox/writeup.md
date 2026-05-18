@@ -2,13 +2,13 @@
 you're provided with [blackbox](/blackbox/blackbox) which is a stripped linux x64 ELF.  
 "strings" command shows the following  
 
- ![strings](writeups/blackbox/pictures/Screenshot_20260512_110658.png)
+ ![strings](/pictures/Screenshot_20260512_110658.png)
 
 as we can see strings shows some AES encryption and some weird ASCII "umducqWlcsacb3ce!"
 
 so we will launch our ghidra and inspect the executable.
 
-![ghidra](/blackbox/pictures/Screenshot_20260512_111542.png)
+![ghidra](/pictures/Screenshot_20260512_111542.png)
 
 the decompiler provided the following :  
 
@@ -36,7 +36,7 @@ and also we can see that the bytes that are used are stored in &DAT_00102020 and
 
 using BYTES window in ghidra we can view the data on these adresses  
 
-![strings](/blackbox/pictures/Screenshot_20260512_113518.png)  
+![strings](/pictures/Screenshot_20260512_113518.png)  
 
 
 
