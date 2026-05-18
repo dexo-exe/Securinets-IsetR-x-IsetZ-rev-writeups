@@ -2,7 +2,7 @@
 you're provided with [blackbox](/blackbox/blackbox) which is a stripped linux x64 ELF.  
 "strings" command shows the following  
 
- ![strings](/blackbox/pictures/Screenshot_20260512_110658.png)
+ ![strings](writeups/blackbox/pictures/Screenshot_20260512_110658.png)
 
 as we can see strings shows some AES encryption and some weird ASCII "umducqWlcsacb3ce!"
 
